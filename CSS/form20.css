@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    height: 600px;
+    /* background-color: blueviolet; */
+    margin: auto;
+    display: flex;
+    border: 2px solid black;
+}
+.box-1{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 1px;
+}
+.a{
+    width: auto;
+    background-color: orangered;
+}
+.box-1 h1{
+    width: auto;
+    margin-top: 40px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 41px;
+}
+.icon-i{
+    font-size: 40px;
+}
+.icon i:hover{
+    color: blue;
+}
+.box-1 p{
+    padding-top: 40px;
+}
+.input-group{
+    padding: 40px;
+}
+.input-group input{
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 60px;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(252, 243, 243);
+}
+.input-group[ type="password"]{
+    margin-top: 30px;
+}
+.box-1 h3{
+    padding: 20px;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    background-color: orangered;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: red;
+    font-size: 20px;
+}
+.a h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 200px;
+}
+.a p{
+    color: white;
+}
